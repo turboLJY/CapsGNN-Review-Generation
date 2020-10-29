@@ -1,10 +1,10 @@
 # CapsGNN-Review-Generation
 
-This repository contains the source code for the CIKM 2020 paper "[Knowledge-Enhanced Personalized Review Generation with Capsule Graph Neural Network](https://arxiv.org/abs/2010.01480)"
+This repository contains the source code for the CIKM 2020 paper "[Knowledge-Enhanced Personalized Review Generation with Capsule Graph Neural Network](https://arxiv.org/abs/2010.01480)".
 
 # Datasets
 
-Our datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing)
+Our datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing).
 
 # Citation
 
