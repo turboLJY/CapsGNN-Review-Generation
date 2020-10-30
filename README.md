@@ -10,7 +10,7 @@ Our datasets, including Amazon Book, Electronic and IMDB movie, can be downloade
 |:----:|:----|---------:|----:|----:|
 |           | #Users     | 46,086 | 61,722 |  46,893  | 
 |   Review  | #Items     | 11,216 | 19,129 |  21,023   |
-|           | #Reviews   | 199,617 | 731,800 | 1,152,912 |
+|           | #Reviews   | 199,617 | 731,800 | 1,149,294 |
 |           | #Entities  | 30,301  | 96,173 | 594,452 |
 |   KG      | #Relations | 20      | 12 | 22 |
 |           | #Triples   | 68,620  | 285,118 | 2,130,368 |
