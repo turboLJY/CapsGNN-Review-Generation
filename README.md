@@ -17,8 +17,8 @@ Our datasets, including Amazon Book, Electronic and IMDB movie, can be downloade
 
 Note that, the #Entities includes the aligned entities and its one-hop entities (neighbors), the #Relations includes the forward and backward relations, and the #Triples removes the triples with ''name'' and ''description'' relations. The following table demonstrates the included forward relations.
 
-| Datasets | Electronic | Book | Movie |
-|:----:|:---------|:----|:----|
+| Datasets | Electronic |
+|:----:|:---------|
 |  Electronic  | computer_peripheral, product_line, category, manufacturer, ad_campaigns, digital_camera_manufacturer, developer, brand, supported_storage_types, industry  | 
 | Book | genre, subject, author, edition, character, language |
 | Movie | genre, actor, director, writer, producer, music, country, language |
