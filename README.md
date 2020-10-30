@@ -6,7 +6,7 @@ This repository contains the source code for the CIKM 2020 paper "[Knowledge-Enh
 
 Our datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing). The following table presents the statistics of our datasets after preprocessing.
 
-| Datasets               | Electronic | Book | Movie |
+| Datasets  | | Electronic | Book | Movie |
 |:----:|:----|---------:|----:|----:|
 |           | #Users     | 46,086 | 61,722 |  46,893  | 
 |   Review  | #Items     | 11,216 | 19,129 |  21,023   |
