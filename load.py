@@ -110,14 +110,14 @@ def loadPrepareData(corpus_name, save_dir):
     try:
         print("Start loading training data ...")
         vocabs = Vocabulary(corpus_name, save_dir)
-        # train_pairs = torch.load(os.path.join(save_dir, 'train_pairs.tar'))
+        train_pairs = torch.load(os.path.join(save_dir, 'train_pairs.tar'))
         valid_pairs = torch.load(os.path.join(save_dir, 'valid_pairs.tar'))
-        # test_pairs = torch.load(os.path.join(save_dir, 'test_pairs.tar'))
+        test_pairs = torch.load(os.path.join(save_dir, 'test_pairs.tar'))
         
     except FileNotFoundError:
         print("Saved data not found, start preparing training data ...")
         vocabs = Vocabulary(corpus_name, save_dir)
         train_pairs, valid_pairs, test_pairs = prepareData(vocabs, save_dir)
-    return vocabs, valid_pairs, valid_pairs, valid_pairs
+    return vocabs, train_pairs, valid_pairs, test_pairs
 
 
