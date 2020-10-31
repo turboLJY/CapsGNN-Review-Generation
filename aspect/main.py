@@ -24,16 +24,16 @@ def parse():
     parser.add_argument("--aspect_model", help="the saved aspect model")
 
     parser.add_argument("--epochs", type=int, default=400, help="Epochs")
-    parser.add_argument("--batch_size", type=int, default=128, help="Batch size")
+    parser.add_argument("--batch_size", type=int, default=1024, help="Batch size")
     parser.add_argument("--rnn_layers", type=int, default=2, help="Number of layers in encoder and decoder")
-    parser.add_argument("--hidden_size", type=int, default=256, help="Hidden size in encoder and decoder")
-    parser.add_argument("--embed_size", type=int, default=256, help="embedding size of topic")
-    parser.add_argument("--node_size", type=int, default=64, help="embedding size of context")
-    parser.add_argument("--beam_size", type=int, default=4, help="beam size in decoder")
+    parser.add_argument("--hidden_size", type=int, default=512, help="Hidden size in encoder and decoder")
+    parser.add_argument("--embed_size", type=int, default=512, help="embedding size of topic")
+    parser.add_argument("--node_size", type=int, default=512, help="embedding size of context")
+    parser.add_argument("--beam_size", type=int, default=8, help="beam size in decoder")
     parser.add_argument("--gcn_layers", type=int, default=3, help="GCN layers")
     parser.add_argument("--gcn_filters", type=int, default=100, help="GCN layers")
 
-    parser.add_argument("--capsule_size", type=int, default=20, help="capsule size of primary/graph/aspect capsules")
+    parser.add_argument("--capsule_size", type=int, default=100, help="capsule size of primary/graph/aspect capsules")
     parser.add_argument("--capsule_num", type=int, default=10, help="number of capsules")
 
     parser.add_argument("--lr_decay_ratio", type=float, default=0.8, help="learning rate decay ratio")
