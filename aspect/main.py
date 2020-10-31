@@ -19,7 +19,6 @@ def parse():
     parser = argparse.ArgumentParser()
     parser.add_argument("--train", help="Train the model with corpus")
     parser.add_argument("--load", help="load the saved model and train")
-    parser.add_argument("--test", help="load the saved model and test")
 
     parser.add_argument("--aspect_model", help="the saved aspect model")
 
@@ -71,10 +70,6 @@ def run(args):
         trainIters(args.load, learning_rate, lr_decay_epoch, lr_decay_ratio, weight_decay, batch_size,
                    rnn_layers, hidden_size, embed_size, node_size, capsule_size, epochs, gcn_layers, gcn_filters,
                    capsule_num, args.save_dir, args.load_file)
-
-    elif args.test:
-        runTest(args.test, rnn_layers, hidden_size, embed_size, node_size, capsule_size, gcn_layers, gcn_filters,
-                capsule_num, args.aspect_model, args.beam_size, args.max_length, args.min_length, args.save_dir)
 
     else:
         print("mode error!")
