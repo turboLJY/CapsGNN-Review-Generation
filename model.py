@@ -478,7 +478,7 @@ class ReviewModel(nn.Module):
         energies = self.extend_linear(torch.cat([global_repre, extend_embed], dim=-1)).squeeze(-1)
         extend_probs = F.softmax(energies, dim=-1) * extend_mask
 
-        normalization_factor = extend_probs.sum(-1, keepdim=True)
+        normalization_factor = extend_probs.sum(-1, keepdim=True) + 1e-12
         extend_probs = extend_probs / normalization_factor
 
         return extend_probs
