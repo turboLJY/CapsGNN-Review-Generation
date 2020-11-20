@@ -2,6 +2,10 @@
 
 This repository contains the source code for the CIKM 2020 paper "[Knowledge-Enhanced Personalized Review Generation with Capsule Graph Neural Network](https://arxiv.org/abs/2010.01480)".
 
+# Directory
+
+- [Requirements](#Requirements)
+
 # Requirements
 
 - Python 3.6
@@ -10,8 +14,9 @@ This repository contains the source code for the CIKM 2020 paper "[Knowledge-Enh
 - Anaconda3
 
 # Datasets
+Our review datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded from [Amazon Review](http://jmcauley.ucsd.edu/data/amazon/links.html) and crawled from [IMDB](https://www.imdb.com/). In addition, the entity-item linkage can be accessed from [KB4Rec](https://github.com/RUCAIBox/KB4Rec). Note that, to crawling the IMDB review, we first take the linked items in KB4Rec as spider seeds, and then crawl their corresponding review text.
 
-Our datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing). The following table presents the statistics of our datasets after preprocessing.
+Finally, the review text (labelled with entities) in three domains can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing). The following table presents the statistics of our datasets after preprocessing.
 
 | Datasets  | | Electronic | Book | Movie |
 |:----:|:----|---------:|----:|----:|
