@@ -6,8 +6,8 @@ This repository contains the source code for the CIKM 2020 paper "[Knowledge-Enh
 
 - [Requirements](#Requirements)
 - [Datasets](#Datasets)
-- [Training Instructions](#Training Instructions)
-- [Testing Instructions](#Testing Instructions)
+- [Training Instructions](#TrainingInstructions)
+- [Testing Instructions](#TestingInstructions)
 - [License](#License)
 - [Reference](#References)
 
